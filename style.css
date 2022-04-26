@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap ;
+
     flex-direction:column;
     height: 100vh;
     margin: 0;
@@ -60,11 +60,11 @@ h1.temp{
     width: 100px;
     height: 100px;
 }
-.msg {
+/* .msg {
     position: sticky;
     left: 636px;
-    top: 369px;
-}
+    top: 369px; 
+}*/
 .humidity , .wind{
     font-size:20px;
     font-weight: bold;
@@ -72,6 +72,21 @@ h1.temp{
 figure{
     font-weight: bold;
 }
-.new{
-    background: red;
+.info{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+  
 }
+.new{
+    color: white;
+    background:  #000000d0;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.city-new{
+font-size: 20px;
+font-weight: bold;
+padding-left: 5px;}

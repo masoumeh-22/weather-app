@@ -39,7 +39,17 @@
                 <div class="wind">Wind speed:  ${data.wind.speed} km/h</div>
                 `;
                 flex.innerHTML = markup;
-
+// //////////////////////////////////////////////////////////////////////
+                const div = document.createElement("div");
+                div.classList.add("new");
+                const mark = `
+                <h2 class='city-name' data-name=${name}>
+                    <span>${name}</span>
+                </h2>
+                <div class='city-new'>${Math.round(main.temp)}°C</div>
+                `;
+                div.innerHTML = mark;
+                info.appendChild(div);
 
             }) .catch(() => {
                      // msg 
