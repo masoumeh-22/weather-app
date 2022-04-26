@@ -1,0 +1,77 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap ;
+    flex-direction:column;
+    height: 100vh;
+    margin: 0;
+    background: rgb(177, 151, 151);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+.card{
+    flex-wrap: nowrap ;
+    background: #000000d0;
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    outline: none;
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+    background-color: #ffffffd0;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #8d7b7bd0;
+}
+
+.search-bar{
+    border: nons;
+    outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+    font-size: 120%;
+    /* background: ; */
+    opacity: 0.5;
+}
+h1.temp{
+    margin: 0;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.msg {
+    position: sticky;
+    left: 636px;
+    top: 369px;
+}
+.humidity , .wind{
+    font-size:20px;
+    font-weight: bold;
+}
+figure{
+    font-weight: bold;
+}
+.new{
+    background: red;
+}
